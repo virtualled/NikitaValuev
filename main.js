@@ -11,3 +11,4 @@ let period = 12;
 console.log(typeof (money) + '\n', typeof (income) + '\n', typeof (deposit) + '\n');
 console.log(income.length);
 console.log('Период ' + period + ' месяцев.'+'\n\nЦель заработать ' + mission + ' рублей');
+
