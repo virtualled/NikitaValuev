@@ -1,9 +1,11 @@
-let money = 0;
-let income = 0;
-let addExpenses = 0;
-let deposit = 0;
-let mission = 0;
-let iod = 0;
+let money = 25;
+let income = '15';
+let addExpenses = '4, 8, 2';
+let deposit = true;
+let mission = 21000;
+let iod = 12;
 
-alert('Need more money!');
-console.log('They took my candle');
+//alert('Need more money!');
+//console.log('They took my candle');
+
+console.log(typeof (money) + '\n', typeof (income) + '\n', typeof (deposit) + '\n');
