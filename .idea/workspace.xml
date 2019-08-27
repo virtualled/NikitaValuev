@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson03/main3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state>
+              <caret selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/l2max/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson03/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson03/main3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -48,8 +76,10 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/l2max/index.html" />
-        <option value="$PROJECT_DIR$/l2max/main.js" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/l2max/main.js" />
+        <option value="$PROJECT_DIR$/lesson03/index.html" />
+        <option value="$PROJECT_DIR$/lesson03/main3.js" />
       </list>
     </option>
   </component>
@@ -71,6 +101,11 @@
             <path>
               <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -104,7 +139,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="Node.js.main3.js">
+    <configuration name="main3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main3.js" working-dir="$PROJECT_DIR$/lesson03">
+      <method v="2" />
+    </configuration>
     <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/l2max">
       <method v="2" />
     </configuration>
@@ -113,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main3.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
       </list>
@@ -130,18 +169,34 @@
       <updated>1566567336545</updated>
       <workItem from="1566567337800" duration="6307000" />
       <workItem from="1566581728453" duration="426000" />
-      <workItem from="1566803980909" duration="486000" />
+      <workItem from="1566803980909" duration="962000" />
+      <workItem from="1566901486883" duration="1123000" />
     </task>
+    <task id="LOCAL-00001" summary="добавил задание с addExpanses">
+      <created>1566804640976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566804640977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="поправил доп. задание">
+      <created>1566804807380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566804807380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7219000" />
+    <option name="totallyTimeSpent" value="8818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.2160229" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" sideWeight="0.5016892" side_tool="true" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.50120485" side_tool="true" weight="0.21030043" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,14 +220,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавил задание с addExpanses" />
+    <MESSAGE value="поправил доп. задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправил доп. задание" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/l2max/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/l2max/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -187,10 +240,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/l2max/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state>
+          <caret selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/main3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
