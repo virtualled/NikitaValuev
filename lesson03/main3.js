@@ -18,54 +18,19 @@ let budgetDay = Math.floor(budgetMonth/30);
 let missionQuantityMonths = mission / budgetMonth;
 
 
+console.log(addExpensesLower.split(','));
+console.log(typeof (money) + '\n', typeof (income) + '\n', typeof (deposit) + '\n');
+console.log(Math.ceil(missionQuantityMonths));
+console.log(budgetDay);
+// console.log(income.length);
+// console.log('Период ' + period + ' месяцев.'+'\n\nЦель заработать ' + mission + ' рублей');
 
-
-function showTypeof(data) {  // выводим тип данных
-
-    console.log(data, typeof (data));
+if (budgetDay >= 800) {
+    console.log("Высокий уровень дохода");
+} else if (budgetDay >= 300 && budgetDay < 800) {
+    console.log("Средний уровень дохода");
+} else if (budgetDay >= 0 && budgetDay < 300) {
+    console.log("Низкий уровень дохода");
+} else if (budgetDay < 0) {
+    console.log("Что то пошло не так");
 }
-
-function getStatusIncome() {
-    if (budgetDay >= 800) {
-        return ("Высокий уровень дохода");
-    } else if (budgetDay >= 300 && budgetDay < 800) {
-        return ("Средний уровень дохода");
-    } else if (budgetDay >= 0 && budgetDay < 300) {
-        return ("Низкий уровень дохода");
-    } else if (budgetDay < 0) {
-        return ("Что то пошло не так");
-    }
-}
-
-function getExpensesMonth() {  //Считаем сумму издержек
-
-    let expenses = question4 + question3;
-    return expenses
-}
-let expenses = getExpensesMonth();
-
-function getAccumulatedMonth() {  // Считаем накопления в месяц (доход - расход)
-
-    let profit = money - expenses;
-    return profit;
-};
-
-let accumulatedMonth = getAccumulatedMonth();
-
-
-
-function getTargetMonth() {   // считаем количество месяцев до цели
-
-    let monthQuantity = mission / accumulatedMonth;
-    return monthQuantity;
-    
-}
-let monthQuantity = Math.ceil(getTargetMonth());
-
-showTypeof(money);
-showTypeof(income);
-showTypeof(deposit);
-console.log(getStatusIncome());
-console.log('Накоплено за период: ' + accumulatedMonth);
-console.log('Цель будет достигнута через: ' + monthQuantity + ' месяцев!');
-
