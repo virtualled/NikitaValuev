@@ -4,7 +4,7 @@ let addExpenses = prompt('Перечислите возможные расход
 let deposit = confirm('Есть ли у Вас депозит в банке?');
 let mission = 21000;
 let period = 12;
-let budgetDay = money / 30;
+let budgetDay = Math.floor(money);
 
 let addExpensesLower = addExpenses.toLowerCase()
 
@@ -16,7 +16,16 @@ let question1 = prompt('Какие обязательные ежемесячны
 let budgetMonth = money - (question3 + question4);
 let missionQuantityMonths = mission / budgetMonth;
 
-console.log(typeof (money) + '\n', typeof (income) + '\n', typeof (deposit) + '\n');
-console.log(income.length);
-console.log('Период ' + period + ' месяцев.'+'\n\nЦель заработать ' + mission + ' рублей');
+
 console.log(addExpensesLower.split(','));
+console.log(typeof (money) + '\n', typeof (income) + '\n', typeof (deposit) + '\n');
+console.log(Math.ceil(missionQuantityMonths));
+console.log(budgetDay);
+// console.log(income.length);
+// console.log('Период ' + period + ' месяцев.'+'\n\nЦель заработать ' + mission + ' рублей');
+
+if (budgetDay > 800) console.log('Высокий уровень дохода');
+if (budgetDay > 300 && budgetDay < 800) console.log('Средний уровень дохода');
+if (budgetDay > 0 && budgetDay < 300) console.log('Низкий уровень дохода');
+if (budgetDay < 0) console.log('Что-то пошло не так');
+
