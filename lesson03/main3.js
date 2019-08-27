@@ -25,8 +25,12 @@ console.log(budgetDay);
 // console.log(income.length);
 // console.log('Период ' + period + ' месяцев.'+'\n\nЦель заработать ' + mission + ' рублей');
 
-if (budgetDay > 800) console.log('Высокий уровень дохода');
-if (budgetDay > 300 && budgetDay < 800) console.log('Средний уровень дохода');
-if (budgetDay > 0 && budgetDay < 300) console.log('Низкий уровень дохода');
-if (budgetDay < 0) console.log('Что-то пошло не так');
-
+if (budgetDay >= 800) {
+    console.log("Высокий уровень дохода");
+} else if (budgetDay >= 300 && budgetDay < 800) {
+    console.log("Средний уровень дохода");
+} else if (budgetDay >= 0 && budgetDay < 300) {
+    console.log("Низкий уровень дохода");
+} else if (budgetDay < 0) {
+    console.log("Что то пошло не так");
+}
