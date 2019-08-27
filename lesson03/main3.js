@@ -9,9 +9,9 @@ let period = 12;
 let addExpensesLower = addExpenses.toLowerCase()
 
 let question1 = prompt('Какие обязательные ежемесячные расходы у вас есть?'),
+    question3 = +prompt('Во сколько это обойдется?'),
     question2 = prompt('Какие обязательные ежемесячные расходы у вас есть?'),
-    question3 = prompt('Во сколько это обойдется?'),
-    question4 = prompt('Во сколько это обойдется?');
+    question4 = +prompt('Во сколько это обойдется?');
 
 let budgetMonth = money - (question3 + question4);
 let budgetDay = Math.floor(budgetMonth/30);
