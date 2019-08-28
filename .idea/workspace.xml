@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson05/main5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/bonus5/bonus5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/bonus5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson05/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05/main5.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +44,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="47" />
+            <state relative-caret-position="385">
+              <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson05/bonus5/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson05/bonus5/bonus5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,6 +77,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>budget</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +101,8 @@
         <option value="$PROJECT_DIR$/lesson04/bonus04/index.html" />
         <option value="$PROJECT_DIR$/lesson04/bonus04/bonus04.js" />
         <option value="$PROJECT_DIR$/lesson05/index.html" />
+        <option value="$PROJECT_DIR$/lesson05/bonus5/index.html" />
+        <option value="$PROJECT_DIR$/lesson05/bonus5/bonus5.js" />
         <option value="$PROJECT_DIR$/lesson05/main5.js" />
       </list>
     </option>
@@ -143,17 +169,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.bonus04.js">
+  <component name="RunManager" selected="Node.js.bonus5.js">
     <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
       <method v="2" />
     </configuration>
     <configuration name="bonus04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus04.js" working-dir="$PROJECT_DIR$/lesson04/bonus04">
       <method v="2" />
     </configuration>
-    <configuration name="main3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main3.js" working-dir="$PROJECT_DIR$/lesson03">
+    <configuration name="bonus5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus5.js" working-dir="$PROJECT_DIR$/lesson05/bonus5">
       <method v="2" />
     </configuration>
-    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/l2max">
+    <configuration name="main3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main3.js" working-dir="$PROJECT_DIR$/lesson03">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
@@ -161,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.bonus5.js" />
         <item itemvalue="Node.js.bonus04.js" />
         <item itemvalue="Node.js.bonus03.js" />
         <item itemvalue="Node.js.main3.js" />
         <item itemvalue="Node.js.main.js" />
-        <item itemvalue="Node.js.main.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +208,7 @@
       <workItem from="1566567337800" duration="6307000" />
       <workItem from="1566581728453" duration="426000" />
       <workItem from="1566803980909" duration="962000" />
-      <workItem from="1566901486883" duration="15857000" />
+      <workItem from="1566901486883" duration="18612000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -247,22 +273,29 @@
       <option name="project" value="LOCAL" />
       <updated>1566922272100</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="сделал 3 обязательных задания и начал делать функцию для budgetday">
+      <created>1566982012873</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566982012873</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23552000" />
+    <option name="totallyTimeSpent" value="26307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49630997" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49630997" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" sideWeight="0.50369006" side_tool="true" visible="true" weight="0.21888413" />
       <window_info id="Favorites" order="2" sideWeight="0.502693" side_tool="true" weight="0.21888413" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.34698796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.34698796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,7 +350,8 @@
     <MESSAGE value="Исправил ветвление" />
     <MESSAGE value="сделал обязательные задания. 4 урок" />
     <MESSAGE value="сделал дополнительные занятия. 4 урок" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал дополнительные занятия. 4 урок" />
+    <MESSAGE value="сделал 3 обязательных задания и начал делать функцию для budgetday" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал 3 обязательных задания и начал делать функцию для budgetday" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/l2max/index.html">
@@ -404,6 +438,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/bonus5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson05/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -413,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="385">
+          <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
         </state>
       </provider>
     </entry>
