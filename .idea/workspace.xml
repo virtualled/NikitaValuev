@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06/main06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lola/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lola/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson05/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05/main5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/main06.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="232">
+              <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-end-line="114" />
+            <state relative-caret-position="47">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson06/main06.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="-732">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -78,6 +76,7 @@
     <findStrings>
       <find>budget</find>
       <find>10000</find>
+      <find>missionqua</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,15 +101,19 @@
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/lesson05/main5.js" />
         <option value="$PROJECT_DIR$/lesson06/index.html" />
+        <option value="$USER_HOME$/Downloads/script.js" />
+        <option value="$PROJECT_DIR$/lola/test.js" />
+        <option value="$PROJECT_DIR$/lola/index.html" />
+        <option value="$PROJECT_DIR$/lola/script.js" />
         <option value="$PROJECT_DIR$/lesson06/main06.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="666" />
-    <option name="y" value="23" />
-    <option name="width" value="922" />
-    <option name="height" value="814" />
+    <option name="x" value="129" />
+    <option name="y" value="31" />
+    <option name="width" value="1117" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,11 +127,6 @@
             <path>
               <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,6 +150,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson06" />
       <recent name="$PROJECT_DIR$/lesson04" />
@@ -209,7 +210,7 @@
       <workItem from="1566581728453" duration="426000" />
       <workItem from="1566803980909" duration="962000" />
       <workItem from="1566901486883" duration="19026000" />
-      <workItem from="1567423594214" duration="6677000" />
+      <workItem from="1567423594214" duration="11903000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -288,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566985258045</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Обязательные задния урок 6 (не работает код)">
+      <created>1567501175781</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567501175781</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33398000" />
+    <option name="totallyTimeSpent" value="38624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -374,7 +382,8 @@
     <MESSAGE value="сделал дополнительные занятия. 4 урок" />
     <MESSAGE value="сделал 3 обязательных задания и начал делать функцию для budgetday" />
     <MESSAGE value="сделал все задания 5 урока" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал все задания 5 урока" />
+    <MESSAGE value="Обязательные задния урок 6 (не работает код)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обязательные задния урок 6 (не работает код)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/l2max/index.html">
@@ -468,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson05/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -485,10 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
+    <entry file="file://$USER_HOME$/Downloads/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-end-line="114" />
+        <state relative-caret-position="402">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -499,10 +498,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lola/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lola/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lola/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="110" column="28" lean-forward="true" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson06/main06.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-732">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
