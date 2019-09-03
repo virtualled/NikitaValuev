@@ -1,18 +1,21 @@
-let money = 0;
+let money = 0,
+    start = function () {
+
+        do {
+            money = prompt('Ваш ежемесячный доход?', 10000);
+
+        } while (isNaN(money) || money === null || money === '');
+    };
+    start();
+
+
+
 let income = '15';
 let addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
 let deposit = confirm('Есть ли у Вас депозит в банке?');
 let mission = 21000;
 let period = 12;
 
-let start = function () {
-
-    do {
-        money = prompt('Ваш ежемесячный доход?', 10000);
-
-    } while (isNaN(money) || money === null || money === '');
-};
-start();
 
 let addExpensesLower = addExpenses.toLowerCase();
 
