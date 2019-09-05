@@ -82,6 +82,46 @@ let ol = document.querySelector('ol');
 ol.setAttribute('style', 'color: orange');
 
 
+// обработчики событий
 
+ let square =document.querySelector('.square');
+ let count  = 0;  // инциализируем счетчик ажатий
+ square.onclick = function(){               //метод нажатия на квадрат
+     if (count === 3){                      // выходит из функции после 3 нажатий
+         square.onclick = null;
+         return;
+
+     }
+     console.log('Вы кликнули на квадрат');
+ };
+
+ let clicked = function{
+     count++;
+     if (count === 3) square.removeEventListener('click', clicked);
+     console.log('Произошел клик по квадрату');
+ };
+ square.addEventListener('click', function () {
+     console.log('Произошел клик по квадрату');
+ });
+
+
+ let eventFunc = function(event){
+     console.log(event.type);
+ };
+square.addEventListener('click', eventFunc);
+square.addEventListener('mouseup', eventFunc);
+square.addEventListener('mousedown', eventFunc);
+square.addEventListener('mousemove', eventFunc);
+square.addEventListener('mouseover', eventFunc); //срабатывает и на чилдренах
+square.addEventListener('mouseleave', eventFunc);
+square.addEventListener('mouseenter', eventFunc);
+square.addEventListener('mouseout', eventFunc); //срабатывает и на чилдренах
+
+
+
+
+
+
+console.dir(square); // можно в консоли посмотреть какие методы есть у данного объекта
 
 
