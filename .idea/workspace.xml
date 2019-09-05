@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson07/lesson07+/main07+.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagesQueryJs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagesQueryJs/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagesQueryJs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/budget_up/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson07/lesson07+/main07+.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson07/lesson07+/main07+.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pagesQueryJs/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="31" column="67" lean-forward="true" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+            <state relative-caret-position="254">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -46,16 +44,34 @@
         <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/main07+.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/main07+.js">
+        <entry file="file://$PROJECT_DIR$/lesson07/budget_up/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="315">
+              <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson07/budget_up/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="130" column="7" lean-forward="true" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -111,6 +127,8 @@
         <option value="$PROJECT_DIR$/pagesQueryJs/page.js" />
         <option value="$PROJECT_DIR$/lesson07/lesson07+/index.html" />
         <option value="$PROJECT_DIR$/lesson07/lesson07+/main07+.js" />
+        <option value="$PROJECT_DIR$/lesson07/budget_up/index.html" />
+        <option value="$PROJECT_DIR$/lesson07/budget_up/main.js" />
       </list>
     </option>
   </component>
@@ -141,14 +159,7 @@
               <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
               <item name="lesson07" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson07+" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson07" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson07+" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="budget_up" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +247,7 @@
       <workItem from="1567423594214" duration="12434000" />
       <workItem from="1567578276441" duration="39000" />
       <workItem from="1567613622939" duration="5531000" />
-      <workItem from="1567627786441" duration="11210000" />
+      <workItem from="1567627786441" duration="14730000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -336,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567620833121</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Сделал первое задание из you dont know js">
+      <created>1567688372767</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567688372767</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55935000" />
+    <option name="totallyTimeSpent" value="59455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -425,7 +443,8 @@
     <MESSAGE value="Обязательные задния урок 6 (не работает код)" />
     <MESSAGE value="сделал обязательные задания. урок 6" />
     <MESSAGE value="сделал обязательные задания. урок 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал обязательные задания. урок 7" />
+    <MESSAGE value="Сделал первое задание из you dont know js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал первое задание из you dont know js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/l2max/index.html">
@@ -551,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="144" selection-start-line="144" selection-end-line="144" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -585,31 +597,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagesQueryJs/page.js">
+    <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="31" column="67" lean-forward="true" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        <state relative-caret-position="2160">
+          <caret line="144" selection-start-line="144" selection-end-line="144" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/main07+.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="130" column="7" lean-forward="true" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagesQueryJs/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
         </state>
       </provider>
     </entry>

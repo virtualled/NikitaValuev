@@ -11,7 +11,7 @@ document.querySelector('body').setAttribute('style', 'background-image: url(./im
 let h2 = document.getElementsByTagName('a')[2]; // меняем заголовок в 3 книге
 h2.textContent = 'Книга 3. this и Протопипы Объектов';
 
-let adv = document.querySelector('.adv').remove();//удаляем рекламу
+document.querySelector('.adv').remove();//удаляем рекламу
 
 let list = document.querySelectorAll('ul');
 let elemLi = document.querySelectorAll('li');
@@ -24,7 +24,7 @@ list[4].insertBefore(elemLi[38], elemLi[42]);
 list[4].insertBefore(elemLi[41], elemLi[44]);
 
 
-let elemLi8 = document.createElement('li')
+let elemLi8 = document.createElement('li');
 elemLi8.textContent = 'Глава 8: За пределами ES6';
 list[5].appendChild(elemLi8);
 console.log(elemLi, list);
