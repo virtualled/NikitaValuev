@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson08/budget_up/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/budget_up/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/lesson08+/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/lesson08+/main07+.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/lesson08+/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson08/main08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson08/index08.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesQueryJs/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagesQueryJs/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08/budget_up/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/budget_up/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08/lesson08+/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/lesson08+/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/main08.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +48,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson08" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,13 +60,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ник\Desktop\JS\glo\lesson08" />
+      <recent name="C:\Users\Ник\Desktop\JS\glo\lesson08\lesson08+" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson06" />
       <recent name="$PROJECT_DIR$/lesson04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.bonus03.js">
     <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
       <method v="2" />
     </configuration>
@@ -120,6 +119,7 @@
       <workItem from="1567613622939" duration="5531000" />
       <workItem from="1567627786441" duration="14730000" />
       <workItem from="1567696918775" duration="2812000" />
+      <workItem from="1567787493131" duration="10353000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
