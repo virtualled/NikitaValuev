@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson08/index08.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson08/budget_up/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/budget_up/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson08/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson08/lesson08+/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/lesson08+/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/main08.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,13 +28,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>budget</find>
-      <find>10000</find>
-      <find>missionqua</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,15 +49,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ник\Desktop\JS\glo\lesson08" />
-      <recent name="C:\Users\Ник\Desktop\JS\glo\lesson08\lesson08+" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson06" />
       <recent name="$PROJECT_DIR$/lesson04" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.bonus03.js">
+  <component name="RunManager">
     <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
       <method v="2" />
     </configuration>
@@ -119,7 +106,9 @@
       <workItem from="1567613622939" duration="5531000" />
       <workItem from="1567627786441" duration="14730000" />
       <workItem from="1567696918775" duration="2812000" />
-      <workItem from="1567787493131" duration="10353000" />
+      <workItem from="1567711174295" duration="61000" />
+      <workItem from="1567857622434" duration="6391000" />
+      <workItem from="1567864955422" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -226,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567688372767</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Создал раздел для 8 урока">
+      <created>1567711222608</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567711222608</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +271,7 @@
     <MESSAGE value="сделал обязательные задания. урок 6" />
     <MESSAGE value="сделал обязательные задания. урок 7" />
     <MESSAGE value="Сделал первое задание из you dont know js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал первое задание из you dont know js" />
+    <MESSAGE value="Создал раздел для 8 урока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал раздел для 8 урока" />
   </component>
 </project>
