@@ -26,7 +26,7 @@ list[4].insertBefore(elemLi[41], elemLi[44]);
 
 let elemLi8 = document.createElement('li');
 elemLi8.textContent = 'Глава 8: За пределами ES6';
-list[5].appendChild(elemLi8);
+list[5].insertBefore(elemLi8,elemLi[56]);
 console.log(elemLi, list);
 
 
