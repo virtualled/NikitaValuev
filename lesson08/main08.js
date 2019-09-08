@@ -1,6 +1,7 @@
 'use strict';
 
 let calcButton = document.getElementById('start'),
+    cancelButton = document.getElementById('cancel'),
     plusButton1 = document.getElementsByTagName("button")[0],
     plusButton2 = document.getElementsByTagName("button")[1],
     additionalIncomeItem = document.querySelectorAll('.additional_income-item'),
@@ -13,7 +14,7 @@ let calcButton = document.getElementById('start'),
     additionalExpansesValue = document.getElementsByClassName('additional_expenses-value')[0],
     incomePeriodValue = document.querySelectorAll('.income_period-value')[0],
     inputAddIncome = document.querySelectorAll('.income_period-item'),
-    targetMonthValue = document.querySelectorAll('.target_month-value'),
+    targetMonthValue = document.querySelectorAll('.target_month-value')[0],
     salaryAmount = document.querySelector('.salary-amount'),
     incomeTitle = document.querySelector('.income-title'),
     expensTitle = document.querySelectorAll('.expenses-title')[1],
@@ -23,13 +24,10 @@ let calcButton = document.getElementById('start'),
     additionalExpensesItem = document.querySelector('.additional_expenses-item'),
     targetAmount = document.querySelector('.target-amount'),
     incomeItem = document.querySelectorAll('.income-items'),
-    periodAmount = document.querySelectorAll('.period-amount');
+    periodAmount = document.querySelector('.period-amount');
 
 
-        /// 20.30 остановился
 
-
-console.dir(periodAmount);
 
 
 
@@ -44,7 +42,7 @@ let appData = {
     deposit: false,
     percentDeposit: 0,
     moneyDeposit:0,
-    period: 3,
+    period: 0,
     budget: 0,
     budgetDay:0,
     budgetMonth: 0,
@@ -53,11 +51,18 @@ let appData = {
     start:  function () {
 
         if (salaryAmount.value === ''){
-
+            return;
 
         }
         appData.budget = +salaryAmount.value; // записывам в бюджет введенное значение в инпут "Месячный доход", при помощи свойства  .value
-        console.log("salary:", salaryAmount.value);
+        console.log(appData.incomeMonth);
+
+        document.querySelectorAll('.data input[type=text]').forEach(function(elements){
+            elements.setAttribute('disabled', true);
+            // elements.value = '';
+        });
+        calcButton.setAttribute('style', 'display: none');
+        cancelButton.setAttribute('style', 'display: inline');
 
         //appData.asking();
 
@@ -67,7 +72,6 @@ let appData = {
         appData.getAddExpenses();
         appData.getAddIncome();
         appData.getBudget();
-
         appData.showResult();
     },
 
@@ -82,7 +86,12 @@ let appData = {
         incomePeriodValue.value = appData.calcSaveMoney();
         periodAmount.textContent = appData.period;
 
+        periodSelect.addEventListener('change', function () {
 
+            incomePeriodValue.value = appData.calcSaveMoney();
+        });
+
+        console.log(appData.budget + appData.incomeMonth - appData.expensesMonth);
     },
 
     addExpensesBlock: function(){     //функция для плюсиков
@@ -164,7 +173,7 @@ let appData = {
     getExpensesMonth: function() {
 
         for (let key in appData.expenses){
-            appData.expensesMonth += appData.expenses[key];
+            appData.expensesMonth += +appData.expenses[key];
 
         }
     },
@@ -220,17 +229,11 @@ let appData = {
 
 };  // конец объекта
 
-let count = 0;
-let clicked = function(event){
-    count++;
-    if (count >= 1) event.preventDefault();
-    console.log(count);
-};
 
 
 //Привязываем кнопку рассчитать
 calcButton.addEventListener('click', appData.start);
-calcButton.addEventListener('click', clicked);
+
 
 //Привязываем кнопку "+" для расходов
 plusButton2.addEventListener('click', appData.addExpensesBlock);
@@ -238,6 +241,7 @@ plusButton2.addEventListener('click', appData.addExpensesBlock);
 plusButton1.addEventListener('click', appData.addIncomesBlock);
 
 periodSelect.addEventListener('change', function(event){
+     periodAmount.textContent = event.target.value;
      appData.period = event.target.value;
 });
 
