@@ -29,12 +29,9 @@ let calcButton = document.getElementById('start'),
         /// 20.30 остановился
 
 
+console.dir(periodAmount);
 
 
-    periodSelect.oninput = function(){
-      console.log(this.value);
-      periodAmount.value = this.value;
-    };
 
 
 
@@ -56,14 +53,14 @@ let appData = {
     start:  function () {
 
         if (salaryAmount.value === ''){
-            alert('Месячный доход должен быть заполнен');
-            return;
+
+
         }
         appData.budget = +salaryAmount.value; // записывам в бюджет введенное значение в инпут "Месячный доход", при помощи свойства  .value
         console.log("salary:", salaryAmount.value);
 
         //appData.asking();
-        appData.moveSelect();
+
         appData.getExpenses();
         appData.getIncome();
         appData.getExpensesMonth();
@@ -74,6 +71,7 @@ let appData = {
         appData.showResult();
     },
 
+
     showResult: function(){
         budgetMonthValue.value = appData.budgetMonth;
         budgetDayValue.value = Math.floor(appData.budgetDay);
@@ -82,6 +80,7 @@ let appData = {
         additionalIncomeValue.value = appData.addIncome.join(', '); //Возможный доход
         targetMonthValue.value = Math.ceil(appData.getTargetMonth());
         incomePeriodValue.value = appData.calcSaveMoney();
+        periodAmount.textContent = appData.period;
 
 
     },
@@ -200,6 +199,9 @@ let appData = {
         }
     },
 
+
+
+
     getInfoDeposit: function () {
         if (appData.deposit){
             do {
@@ -218,15 +220,26 @@ let appData = {
 
 };  // конец объекта
 
+let count = 0;
+let clicked = function(event){
+    count++;
+    if (count >= 1) event.preventDefault();
+    console.log(count);
+};
+
 
 //Привязываем кнопку рассчитать
 calcButton.addEventListener('click', appData.start);
+calcButton.addEventListener('click', clicked);
 
 //Привязываем кнопку "+" для расходов
 plusButton2.addEventListener('click', appData.addExpensesBlock);
 
 plusButton1.addEventListener('click', appData.addIncomesBlock);
 
+periodSelect.addEventListener('change', function(event){
+     appData.period = event.target.value;
+});
 
 
 

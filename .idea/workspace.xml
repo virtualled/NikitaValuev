@@ -108,7 +108,8 @@
       <workItem from="1567696918775" duration="2812000" />
       <workItem from="1567711174295" duration="61000" />
       <workItem from="1567857622434" duration="6391000" />
-      <workItem from="1567864955422" duration="5508000" />
+      <workItem from="1567864955422" duration="5538000" />
+      <workItem from="1567941805529" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567711222608</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="wefw">
+      <created>1567876329370</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1567876329370</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +280,7 @@
     <MESSAGE value="сделал обязательные задания. урок 7" />
     <MESSAGE value="Сделал первое задание из you dont know js" />
     <MESSAGE value="Создал раздел для 8 урока" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал раздел для 8 урока" />
+    <MESSAGE value="wefw" />
+    <option name="LAST_COMMIT_MESSAGE" value="wefw" />
   </component>
 </project>
