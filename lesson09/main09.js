@@ -169,7 +169,7 @@ let appData = {
 
         for (let key in this.expenses){
             this.expensesMonth += +this.expenses[key];
-this
+
         }
     },
 
@@ -226,9 +226,7 @@ periodSelect.addEventListener('change', function(event){
 
 });
 
-cancelButton.addEventListener('click', function () {
-    this.reset();
-});
+cancelButton.addEventListener('click', appData.reset.bind(appData));
 
 
 

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson09/budget_up/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/budget_up/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/font/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/font/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/index09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson09/main09.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson09/main09.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +25,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson09/main09.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+            <state relative-caret-position="251">
+              <caret line="130" column="62" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson09/index09.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,6 +73,7 @@
       <find>expensesMonth</find>
       <find>budgetMonth</find>
       <find>getStatusIncome</find>
+      <find>income-title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -118,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,13 +137,12 @@
             <path>
               <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson09" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +226,8 @@
       <workItem from="1567578276441" duration="39000" />
       <workItem from="1567613622939" duration="5531000" />
       <workItem from="1567627786441" duration="15185000" />
-      <workItem from="1567959825934" duration="8537000" />
+      <workItem from="1567959825934" duration="11941000" />
+      <workItem from="1568010584599" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -353,18 +362,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567966488870</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="урок 9 - первое и последнее не сделано">
+      <created>1567971910861</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567971910861</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68447000" />
+    <option name="totallyTimeSpent" value="73530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49156627" visible="true" weight="0.20171674" />
-      <window_info id="Structure" order="1" sideWeight="0.50843376" side_tool="true" visible="true" weight="0.20171674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49036145" visible="true" weight="0.20457797" />
+      <window_info id="Structure" order="1" sideWeight="0.50963855" side_tool="true" visible="true" weight="0.20457797" />
       <window_info id="Favorites" order="2" sideWeight="0.502693" side_tool="true" weight="0.21888413" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -446,7 +462,8 @@
     <MESSAGE value="Сделал урок 7" />
     <MESSAGE value="Сделал 8 урок" />
     <MESSAGE value="Исправил 7 урок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил 7 урок" />
+    <MESSAGE value="урок 9 - первое и последнее не сделано" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 9 - первое и последнее не сделано" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/l2max/index.html">
@@ -610,13 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/main.js" />
     <entry file="file://$USER_HOME$/Downloads/main08.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-562" />
@@ -637,13 +648,6 @@
     <entry file="file://$PROJECT_DIR$/lesson07/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2364">
-          <caret line="257" column="91" selection-start-line="257" selection-start-column="91" selection-end-line="257" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/main07+.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -658,11 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09/lesson08+/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1272" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson09/lesson08+/index.html" />
     <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -673,13 +673,24 @@
     <entry file="file://$PROJECT_DIR$/lesson09/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson09/index09.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson09/main09.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+        <state relative-caret-position="251">
+          <caret line="130" column="62" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="62" />
         </state>
       </provider>
     </entry>
