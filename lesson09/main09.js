@@ -32,7 +32,6 @@ let calcButton = document.getElementById('start'),
 
 
 
-
 let appData = {
     income: {},
     incomeMonth: 0,
@@ -209,10 +208,11 @@ let appData = {
 
 };  // конец объекта
 
-
+calcButton.addEventListener('click', appData.start.bind(appData));
+cancelButton.addEventListener('click', appData.reset.bind(appData));
 
 //Привязываем кнопку рассчитать
-calcButton.addEventListener('click', appData.start);
+
 
 
 //Привязываем кнопку "+" для расходов
@@ -226,7 +226,7 @@ periodSelect.addEventListener('change', function(event){
 
 });
 
-cancelButton.addEventListener('click', appData.reset.bind(appData));
+
 
 
 
