@@ -41,7 +41,7 @@ let appData = {
     deposit: false,
     percentDeposit: 0,
     moneyDeposit:0,
-    period: 0,
+    period: 1,
     budget: 0,
     budgetDay:0,
     budgetMonth: 0,
@@ -88,7 +88,7 @@ let appData = {
 
         periodSelect.addEventListener('change', function () {
 
-            incomePeriodValue.value = this.calcSaveMoney();
+            incomePeriodValue.value = appData.calcSaveMoney();
         });
 
 
@@ -112,7 +112,7 @@ let appData = {
             let cashExpenses = item.querySelector('.expenses-amount').value;
 
             if(itemExpenses !== '' && cashExpenses !== ''){
-                this.expenses[itemExpenses] = cashExpenses;
+                appData.expenses[itemExpenses] = cashExpenses;
             }
         })
     },
@@ -147,7 +147,7 @@ let appData = {
         addExpenses.forEach(function(item){
             item = item.trim();
             if(item !== ''){
-                this.addExpenses.push(item);
+                appData.addExpenses.push(item);
             }
         })
     },
@@ -156,7 +156,7 @@ let appData = {
         additionalIncomeItem.forEach(function (item) {
             let itemValue = item.value.trim();
             if (item.value !== ''){
-                this.addIncome.push(itemValue);
+                appData.addIncome.push(itemValue);
             }
         })
 
@@ -204,6 +204,34 @@ let appData = {
     },
     calcSaveMoney: function () {
         return appData.budgetMonth * appData.period;
+    },
+    
+    reset: function () {
+        
+        let inputTextData = document.querySelectorAll('.data input[type = text]'),
+            resultInputAll = document.querySelectorAll('.result input[type = text]');
+
+        inputTextData.forEach(function(elem){
+            elem.value = '';
+            elem.removeAttribute('disabled');
+            periodAmount.innerHTML = periodSelect.value;
+
+
+        });
+
+        resultInputAll.forEach(function (elem) {
+
+            elem.value = '';
+        });
+
+        for (let i = 1; 1 < incomeItem.length; i++ ){
+            incomeItem[i].parentNode.removeChild(incomeItem[i]);
+            plusButton1.style.display = 'block';
+        }
+        for (let i = 1; 1 < expensesItem.length; i++){
+            expensesItem[i].parentNode.removeChild(expensesItem[i]);
+            plusButton2.style.display = 'block';
+        }
     }
 
 };  // конец объекта
