@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hints/OOP/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hints/OOP/oop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/budget_up/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/budget_up/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/font/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/font/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/main10Copy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesQueryJs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesQueryJs/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagesQueryJs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -37,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson10" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,13 +62,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson10" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson06" />
       <recent name="$PROJECT_DIR$/lesson04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hints" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +125,7 @@
       <workItem from="1567857622434" duration="6391000" />
       <workItem from="1567864955422" duration="5538000" />
       <workItem from="1567941805529" duration="5493000" />
-      <workItem from="1568024864478" duration="3952000" />
+      <workItem from="1568024864478" duration="11885000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -238,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567956061920</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Сделал 9 урок">
+      <created>1568030285713</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568030285713</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +312,7 @@
     <MESSAGE value="Создал раздел для 8 урока" />
     <MESSAGE value="wefw" />
     <MESSAGE value="добавил отслеживание ползунка" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил отслеживание ползунка" />
+    <MESSAGE value="Сделал 9 урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал 9 урок" />
   </component>
 </project>
