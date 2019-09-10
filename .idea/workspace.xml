@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hints/OOP/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hints/OOP/oop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/budget_up/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/budget_up/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/font/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/font/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/index10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/main10Copy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesQueryJs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesQueryJs/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesQueryJs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/pagesQueryJs/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/main10Copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10Copy.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.bonus03.js">
     <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
       <method v="2" />
     </configuration>

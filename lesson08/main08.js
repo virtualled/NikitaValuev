@@ -244,7 +244,12 @@ periodSelect.addEventListener('change', function(event){
      periodAmount.textContent = event.target.value;
      appData.period = event.target.value;
 });
-
+salaryAmount.addEventListener('keydown', function(){
+    if(this.value !== '')
+        start.removeAttribute('disabled');
+    else
+        start.setAttribute('disabled', true);
+});
 
 
 // for (let key in appData){

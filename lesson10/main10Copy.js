@@ -47,6 +47,12 @@ let appData = {
     budgetMonth: 0,
     expensesMonth: 0,
 
+    check: function (){
+        if (salaryAmount.value !== '' ){
+            calcButton.removeAttribute('Disable');
+
+        }
+    },
     start:  function () {
 
         if (salaryAmount.value === ''){
