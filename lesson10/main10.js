@@ -209,7 +209,7 @@ AppData.prototype.getInfoDeposit = function () {
     }
 };
 AppData.prototype.calcSaveMoney = function () {
-    return this.budgetMonth * this.periodSelect.value;
+    return this.budgetMonth * periodSelect.value;
 };
 
 AppData.prototype.reset = function(){
@@ -221,7 +221,7 @@ AppData.prototype.reset = function(){
         elem.value = '';
         elem.removeAttribute('disabled');
         periodAmount.innerHTML = periodSelect.value;
-p
+
 
     });
 
@@ -230,14 +230,15 @@ p
         elem.value = '';
     });
 
-    for (let i = 1; 1 < incomeItem.length; i++ ){
-        incomeItem[i].parentNode.removeChild(incomeItem[i]);
+    for (let i = 1; incomeItem.length - 1 >= i; i++ ){
+        incomeItem[i].remove();
         plusButton1.style.display = 'block';
     }
-    for (let i = 1; 1 < expensesItem.length; i++){
-        expensesItem[i].parentNode.removeChild(expensesItem[i]);
-        plusButton2.style.display = 'block';
-    }
+    for (let i = 1; incomeItem.length - 1 >= i; i++ ){
+        incomeItem[i].remove();
+
+    } plusButton1.style.display = 'block';
+
     calcButton.style.display = 'block';
     cancelButton.style.display = 'none'
 };
@@ -280,7 +281,7 @@ DomElement.prototype.creatElement = function () {
         div.style.cssText = 'height:' + this.height +'; width:' + this.width + ';background:' + this.bg + '; font-size:' + this.fontSize;
         div.textContent = this.text;
         document.body.appendChild(div);
-    }if (this.selector[0] === '#'){
+    }else if (this.selector[0] === '#'){
         const p = document.createElement('p');
         p.style.cssText = 'height:' + this.height +'; width:' + this.width + ';background:' + this.bg + '; font-size:' + this.fontSize;
         p.textContent = this.text;
