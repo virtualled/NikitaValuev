@@ -260,6 +260,13 @@ periodSelect.addEventListener('change', function(event){
      appData.period = event.target.value;
 
 });
+salaryAmount.addEventListener('keydown', function(){
+    if(this.value !== '')
+        calcButton.removeAttribute('disabled');
+    else
+        calcButton.setAttribute('disabled', true);
+});
+
 
 
 

@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/lesson08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08/main08.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson09/main09.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/main10Copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10Copy.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +115,7 @@
       <workItem from="1567864955422" duration="5538000" />
       <workItem from="1567941805529" duration="5493000" />
       <workItem from="1568024864478" duration="11885000" />
+      <workItem from="1568447058660" duration="7521000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568030285713</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Сделал 9 урок">
+      <created>1568155862610</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568155862610</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

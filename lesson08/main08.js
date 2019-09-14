@@ -246,9 +246,9 @@ periodSelect.addEventListener('change', function(event){
 });
 salaryAmount.addEventListener('keydown', function(){
     if(this.value !== '')
-        start.removeAttribute('disabled');
+        calcButton.removeAttribute('disabled');
     else
-        start.setAttribute('disabled', true);
+        calcButton.setAttribute('disabled', true);
 });
 
 
