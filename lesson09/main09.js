@@ -231,14 +231,15 @@ let appData = {
             elem.value = '';
         });
 
-        for (let i = 1; 1 < incomeItem.length; i++ ){
-            incomeItem[i].parentNode.removeChild(incomeItem[i]);
-            plusButton1.style.display = 'block';
+
+        for (let i = 1; incomeItem.length - 1 >= i; i++ ){
+            incomeItem[i].remove();
         }
-        for (let i = 1; 1 < expensesItem.length; i++){
-            expensesItem[i].parentNode.removeChild(expensesItem[i]);
-            plusButton2.style.display = 'block';
+        plusButton1.style.display = 'block';
+        for (let i = 1; expensesItem.length - 1 >= i; i++){
+            expensesItem[i].remove();
         }
+        plusButton2.style.display = 'block';
     }
 
 };  // конец объекта
