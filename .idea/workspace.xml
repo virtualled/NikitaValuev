@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hints/ES6/es6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hints/ES6/es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/font/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/font/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/index11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/main11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main10.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson11/main11.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,6 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,11 +62,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ник\Desktop\JS\glo" />
+      <recent name="C:\Users\Ник\Desktop\JS\glo\Hints" />
       <recent name="C:\Users\Ник\Desktop\JS\glo\lesson07" />
       <recent name="$PROJECT_DIR$/lesson10" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lesson06" />
-      <recent name="$PROJECT_DIR$/lesson04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,14 +81,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.bonus03.js">
-    <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.ewrjs">
     <configuration name="bonus04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus04.js" working-dir="$PROJECT_DIR$/lesson04/bonus04">
       <method v="2" />
     </configuration>
     <configuration name="bonus5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus5.js" working-dir="$PROJECT_DIR$/lesson05/bonus5">
+      <method v="2" />
+    </configuration>
+    <configuration name="ewrjs" type="NodeJSConfigurationType" temporary="true" path-to-js-file="main11.js" working-dir="$PROJECT_DIR$/lesson11">
       <method v="2" />
     </configuration>
     <configuration name="main3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main3.js" working-dir="$PROJECT_DIR$/lesson03">
@@ -89,6 +97,18 @@
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.ewrjs" />
+      <item itemvalue="Node.js.bonus04.js" />
+      <item itemvalue="Node.js.bonus5.js" />
+      <item itemvalue="Node.js.main.js" />
+      <item itemvalue="Node.js.main3.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ewrjs" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,7 +134,11 @@
       <workItem from="1567864955422" duration="5538000" />
       <workItem from="1567941805529" duration="5493000" />
       <workItem from="1568024864478" duration="11885000" />
-      <workItem from="1568447058660" duration="14403000" />
+      <workItem from="1568447058660" duration="15354000" />
+      <workItem from="1568536743270" duration="348000" />
+      <workItem from="1568537151806" duration="5543000" />
+      <workItem from="1568552976704" duration="5241000" />
+      <workItem from="1568561559962" duration="3671000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -291,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568485021941</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Поправил 10 урок">
+      <created>1568486818833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568486818833</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +378,7 @@
     <MESSAGE value="Сделал 10 урок" />
     <MESSAGE value="Исправил input, добавил верстку" />
     <MESSAGE value="Исправил 9 урок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил 9 урок" />
+    <MESSAGE value="Поправил 10 урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил 10 урок" />
   </component>
 </project>
