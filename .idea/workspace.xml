@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson11.2/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.2/font/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.2/font/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.2/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.2/index11.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.2/main11.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/main11.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson11/main11.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,15 +55,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Hints" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Ник\Desktop\JS\glo" />
       <recent name="C:\Users\Ник\Desktop\JS\glo\Hints" />
       <recent name="C:\Users\Ник\Desktop\JS\glo\lesson07" />
       <recent name="$PROJECT_DIR$/lesson10" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hints" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -120,7 +125,7 @@
       <workItem from="1568537151806" duration="5543000" />
       <workItem from="1568552976704" duration="5241000" />
       <workItem from="1568561559962" duration="3671000" />
-      <workItem from="1568695478355" duration="3300000" />
+      <workItem from="1568695478355" duration="4593000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -304,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568486818833</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Сделал 11.1&#10;поменял const&#10;Добавил стрелочные функции только в  forEach">
+      <created>1568699066418</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568699066418</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +373,7 @@
     <MESSAGE value="Исправил input, добавил верстку" />
     <MESSAGE value="Исправил 9 урок" />
     <MESSAGE value="Поправил 10 урок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил 10 урок" />
+    <MESSAGE value="Сделал 11.1&#10;поменял const&#10;Добавил стрелочные функции только в  forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал 11.1&#10;поменял const&#10;Добавил стрелочные функции только в  forEach" />
   </component>
 </project>
