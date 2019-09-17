@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hints/ES6/es6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hints/ES6/es6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/font/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/font/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/index11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/main11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/main11.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ewrjs">
+  <component name="RunManager">
     <configuration name="bonus04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus04.js" working-dir="$PROJECT_DIR$/lesson04/bonus04">
       <method v="2" />
     </configuration>
@@ -97,18 +90,6 @@
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Node.js.ewrjs" />
-      <item itemvalue="Node.js.bonus04.js" />
-      <item itemvalue="Node.js.bonus5.js" />
-      <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.main3.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.ewrjs" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -139,6 +120,7 @@
       <workItem from="1568537151806" duration="5543000" />
       <workItem from="1568552976704" duration="5241000" />
       <workItem from="1568561559962" duration="3671000" />
+      <workItem from="1568695478355" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>

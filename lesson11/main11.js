@@ -5,7 +5,7 @@ let calcButton = document.getElementById('start'),
     plusButton1 = document.getElementsByTagName("button")[0],
     plusButton2 = document.getElementsByTagName("button")[1],
     additionalIncomeItem = document.querySelectorAll('.additional_income-item'),
-    checkBox = document.querySelector('#deposit-check'),
+    depositCheck = document.querySelector('#deposit-check'),
     budgetDayValue = document.querySelectorAll('.budget_day-value')[0],
     budgetMonthValue = document.querySelectorAll('.budget_month-value')[0],
     expensestMonthValue = document.querySelectorAll('.expenses_month-value')[0],
@@ -24,7 +24,10 @@ let calcButton = document.getElementById('start'),
     additionalExpensesItem = document.querySelector('.additional_expenses-item'),
     targetAmount = document.querySelector('.target-amount'),
     incomeItem = document.querySelectorAll('.income-items'),
-    periodAmount = document.querySelector('.period-amount');
+    periodAmount = document.querySelector('.period-amount'),
+    depositBank = document.querySelector('.deposit-bank'),
+    depositAmount = document.querySelector('.deposit-amount'),
+    depositPercent =document.querySelector('.deposit-percent');
 
 
 
@@ -46,13 +49,13 @@ const AppData =  function() {
 
 };
 
-AppData.prototype.check =  function()  {
+AppData.prototype.check =  () =>  {
     if (salaryAmount.value !== '' ){
         calcButton.removeAttribute('Disable');
     }
 };
 
-AppData.prototype.start = function () {
+AppData.prototype.start = function() {
 
     if (salaryAmount.value === ''){
         return;
@@ -73,6 +76,7 @@ AppData.prototype.start = function () {
     this.getExpenses();
     this.getIncome();
     this.getExpensesMonth();
+    this.getInfoDeposit();
     this.getAddExpenses();
     this.getAddIncome();
     this.getBudget();
@@ -99,59 +103,38 @@ AppData.prototype.showResult = function(){
 
 };
 
-AppData.prototype.addBlocks = function(item, button){     //функция для плюсиков
+AppData.prototype.addBlocks = function(item, button, className){     //функция для плюсиков
 
     let cloneExpensesItem = item[0].cloneNode(true);
     item[0].parentNode.insertBefore(cloneExpensesItem, button);
-    item = document.querySelectorAll('.expenses-items');
+    item = document.querySelectorAll(className);
     if(item.length === 3){
         button.style.display = 'none';
     }
 };
 
 
-// AppData.prototype.addExpensesBlock = function(){     //функция для плюсиков
-//
-//     this.addBlocks(expensesItem, plusButton2);
-//     //  let expensesItem = document.querySelectorAll('.expenses-items'); // блок с двуми инпутами
-//     // console.log(expensesItem.parentNode); // выявляем родителя для expenses-items
-//     // let cloneExpensesItem = expensesItem[0].cloneNode(true);
-//     // expensesItem[0].parentNode.insertBefore(cloneExpensesItem, plusButton2);
-//     // expensesItem = document.querySelectorAll('.expenses-items');
-//     // if(expensesItem.length === 3){
-//     //     plusButton2.style.display = 'none';
-//     }
-// };
-
 AppData.prototype.getExpenses = function(){
-    expensesItem.forEach(function (item) {
-        let itemExpenses = item.querySelector('.expenses-title').value;
-        let cashExpenses = item.querySelector('.expenses-amount').value;
+    expensesItem.forEach( (item) => {
+        const itemExpenses = item.querySelector('.expenses-title').value;
+        const cashExpenses = item.querySelector('.expenses-amount').value;
 
         if(itemExpenses !== '' && cashExpenses !== ''){
             this.expenses[itemExpenses] = cashExpenses;
         }
-    }, this)
+    })
 };
 
-AppData.prototype.addIncomesBlock = function(){
-    let cloneIncomeItem = incomeItem[0].cloneNode(true);
-    incomeItem[0].parentNode.insertBefore(cloneIncomeItem, plusButton1);
-    incomeItem = document.querySelectorAll('.income-items');
-    if(incomeItem.length === 3){
-        plusButton1.style.display = 'none';
-    }
-};
 AppData.prototype.getIncome = function(){
-    incomeItem.forEach(function (item) {
-        let itemIncome = item.querySelector('.income-title').value;
-        let cashIncome = item.querySelector('.income-amount').value;
+    incomeItem.forEach( (item) => {
+        const itemIncome = item.querySelector('.income-title').value;
+        const cashIncome = item.querySelector('.income-amount').value;
 
         if (itemIncome !== '' && cashIncome !== ''){
             this.income[itemIncome] = [cashIncome];
         }
 
-    }, this);
+    });
 
     for (let key in this.income){
         this.incomeMonth += +this.income[key]
@@ -160,22 +143,22 @@ AppData.prototype.getIncome = function(){
 
 //Возможные расходы
 AppData.prototype.getAddExpenses = function(){
-    let addExpenses = additionalExpensesItem.value.split(',');
-    addExpenses.forEach(function(item){
+    const addExpenses = additionalExpensesItem.value.split(',');
+    addExpenses.forEach((item) => {
         item = item.trim();
         if(item !== ''){
             this.addExpenses.push(item);
         }
-    }, this)
+    })
 };
 //Возможный доход
 AppData.prototype.getAddIncome  = function(){
-    additionalIncomeItem.forEach(function (item) {
+    additionalIncomeItem.forEach( (item) => {
         let itemValue = item.value.trim();
         if (item.value !== ''){
             this.addIncome.push(itemValue);
         }
-    }, this)
+    })
 
 };
 
@@ -191,7 +174,7 @@ AppData.prototype.getExpensesMonth = function() {
 
 AppData.prototype.getBudget = function(){
 
-    this.budgetMonth =  this.budget + this.incomeMonth - this.expensesMonth;
+    this.budgetMonth =  this.budget + this.incomeMonth - this.expensesMonth + (this.moneyDeposit * this.percentDeposit) / 12;
     this.budgetDay = Math.floor(this.budgetMonth / 30);
 };
 
@@ -207,28 +190,24 @@ AppData.prototype.getTargetMonth = function() {
 };
 
 
-AppData.prototype.getInfoDeposit = function () {
+AppData.prototype.getInfoDeposit = function() {
     if (this.deposit){
-        do {
-            this.percentDeposit = prompt('какой годовой процент?', '10');
+        this.percentDeposit = depositPercent.value;
+        this.moneyDeposit = depositAmount.value;
 
-        }while (isNaN(this.percentDeposit) || this.percentDeposit === '' || this.percentDeposit === null);
-
-        do {
-            this.moneyDeposit = prompt('Какая сумма заложена?', 1000);
-        }while (isNaN(this.moneyDeposit) || this.moneyDeposit === '' || this.moneyDeposit === null);
     }
 };
-AppData.prototype.calcSaveMoney = function () {
+
+AppData.prototype.calcSaveMoney = function() {
     return this.budgetMonth * periodSelect.value;
 };
 
 AppData.prototype.reset = function(){
 
-    let inputTextData = document.querySelectorAll('.data input[type = text]'),
-        resultInputAll = document.querySelectorAll('.result input[type = text]');
+    const inputTextData = document.querySelectorAll('.data input[type = text]'),
+          resultInputAll = document.querySelectorAll('.result input[type = text]');
 
-    inputTextData.forEach(function(elem){
+    inputTextData.forEach((elem) => {
         elem.value = '';
         elem.removeAttribute('disabled');
         periodAmount.innerHTML = periodSelect.value;
@@ -236,7 +215,7 @@ AppData.prototype.reset = function(){
 
     });
 
-    resultInputAll.forEach(function (elem) {
+    resultInputAll.forEach( (elem) => {
 
         elem.value = '';
     });
@@ -254,12 +233,10 @@ AppData.prototype.reset = function(){
     cancelButton.style.display = 'none'
 };
 
-AppData.prototype.addEventListeners = function (){
+AppData.prototype.addEventListeners = function(){
 
     calcButton.addEventListener('click', this.start.bind(this));
     cancelButton.addEventListener('click', this.reset.bind(this));
-    plusButton2.addEventListener('click', this.addExpensesBlock);
-    plusButton1.addEventListener('click', this.addIncomesBlock);
 
     periodSelect.addEventListener('change', function(event){
         periodAmount.textContent = event.target.value;
@@ -271,9 +248,34 @@ AppData.prototype.addEventListeners = function (){
         else
             calcButton.setAttribute('disabled', true);
     });
+    plusButton1.addEventListener('click', () => {
+        this.addBlocks(incomeItem, plusButton1, '.income-items');
+    });
     plusButton2.addEventListener('click', ()=>{
-        this.addBlocks(expensesItem, plusButton2);
-    })
+        this.addBlocks(expensesItem, plusButton2, '.expenses-items');
+    });
+    depositCheck.addEventListener('change', () => {
+        if(depositCheck.checked === true){
+            depositBank.style.display = 'inline-block';
+            depositAmount.style.display = 'inline-block';
+            this.deposit = true;
+            depositBank.addEventListener('change', function(){
+                let selectIndex = this.options[this.selectedIndex].value;
+                if(selectIndex === 'other'){
+                    depositPercent.style.display = 'inline-block';
+                   depositPercent.value = '';
+                }else{
+                    depositPercent.style.display = 'none';
+                    depositPercent.value = selectIndex;
+                }
+            });
+        }else{
+            depositBank.style.display = 'none';
+            depositAmount.style.display = 'none';
+            depositAmount.value = '';
+            this.deposit = false;
+        }
+    });
 
 };
 
