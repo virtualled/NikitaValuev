@@ -87,7 +87,7 @@ start = function() {
 };
 
 showResult = function(){
-    budgetMonthValue.value = this.budgetMonth;
+    budgetMonthValue.value = Math.floor(this.budgetMonth);
     budgetDayValue.value = Math.floor(this.budgetDay);
     expensestMonthValue.value = this.expensesMonth;
     additionalExpansesValue.value = this.addExpenses.join(', ');
@@ -201,7 +201,7 @@ getInfoDeposit = function() {
 };
 
 calcSaveMoney = function() {
-    return this.budgetMonth * periodSelect.value;
+    return Math.floor(this.budgetMonth * periodSelect.value);
 };
 
 reset = function(){
