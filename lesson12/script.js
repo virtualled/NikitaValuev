@@ -22,13 +22,11 @@ window.addEventListener('DOMContentLoaded', function () {
         function updateClock() {
             let time = getTimeRemaining();
 
-            addZero(timerHours, time.hours);
-            addZero(timerMinutes, time.minutes);
-            addZero(timerSeconds, time.seconds);
 
-            console.log(timerMinutes.textContent.length);
             if(time.timeRemain > 0){
-                setInterval(updateClock, 1000);
+                addZero(timerHours, time.hours);
+                addZero(timerMinutes, time.minutes);
+                addZero(timerSeconds, time.seconds);
             }else {
                 timerHours.textContent = '0';
                 timerMinutes.textContent = '0';
@@ -36,7 +34,7 @@ window.addEventListener('DOMContentLoaded', function () {
             }
 
             function addZero(timerData, timeData) {
-                if(timerData.textContent.length < 2){
+                if(String(timeData).length < 2){
                     timerData.textContent = '0' + timeData;
 
                 }else{
@@ -45,11 +43,11 @@ window.addEventListener('DOMContentLoaded', function () {
             }
 
         }
+        setInterval(updateClock, 1000);
 
-        updateClock();
     }
 
-    countTimer('18 september 2019');
+    countTimer('19 september 2019');
 
 });
 

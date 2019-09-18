@@ -1,6 +1,6 @@
  'use strict';
 
-let calcButton = document.getElementById('start'),
+const calcButton = document.getElementById('start'),
     cancelButton = document.getElementById('cancel'),
     plusButton1 = document.getElementsByTagName("button")[0],
     plusButton2 = document.getElementsByTagName("button")[1],
@@ -18,18 +18,18 @@ let calcButton = document.getElementById('start'),
     salaryAmount = document.querySelector('.salary-amount'),
     incomeTitle = document.querySelector('.income-title'),
     expensTitle = document.querySelectorAll('.expenses-title')[1],
-    expensesItem = document.querySelectorAll('.expenses-items'),
     addExpItem = document.querySelector('.additional_expenses'),
     periodSelect = document.querySelector('.period-select'),
     additionalExpensesItem = document.querySelector('.additional_expenses-item'),
     targetAmount = document.querySelector('.target-amount'),
-    incomeItem = document.querySelectorAll('.income-items'),
     periodAmount = document.querySelector('.period-amount'),
     depositBank = document.querySelector('.deposit-bank'),
     depositAmount = document.querySelector('.deposit-amount'),
     depositPercent =document.querySelector('.deposit-percent');
 
 
+let expensesItem = document.querySelectorAll('.expenses-items'),
+    incomeItem = document.querySelectorAll('.income-items');
 
 
 class AppData {
@@ -51,7 +51,7 @@ class AppData {
 
 
 
-check =  () =>  {
+check =  function()  {
     if (salaryAmount.value !== '' ){
         calcButton.removeAttribute('Disable');
     }
@@ -117,9 +117,10 @@ addBlocks = function(item, button, className){     //функция для пл�
 
 
 getExpenses = function(){
+    expensesItem = document.querySelectorAll('.expenses-items');
     expensesItem.forEach( (item) => {
-        const itemExpenses = item.querySelector('.expenses-title').value;
-        const cashExpenses = item.querySelector('.expenses-amount').value;
+        let itemExpenses = item.querySelector('.expenses-title').value;
+        let cashExpenses = item.querySelector('.expenses-amount').value;
 
         if(itemExpenses !== '' && cashExpenses !== ''){
             this.expenses[itemExpenses] = cashExpenses;
@@ -128,9 +129,10 @@ getExpenses = function(){
 };
 
 getIncome = function(){
+    incomeItem = document.querySelectorAll('.income-items');
     incomeItem.forEach( (item) => {
-        const itemIncome = item.querySelector('.income-title').value;
-        const cashIncome = item.querySelector('.income-amount').value;
+        let itemIncome = item.querySelector('.income-title').value;
+        let cashIncome = item.querySelector('.income-amount').value;
 
         if (itemIncome !== '' && cashIncome !== ''){
             this.income[itemIncome] = [cashIncome];
@@ -145,7 +147,7 @@ getIncome = function(){
 
 //Возможные расходы
 getAddExpenses = function(){
-    const addExpenses = additionalExpensesItem.value.split(',');
+    let addExpenses = additionalExpensesItem.value.split(',');
     addExpenses.forEach((item) => {
         item = item.trim();
         if(item !== ''){
@@ -206,7 +208,7 @@ calcSaveMoney = function() {
 
 reset = function(){
 
-    const inputTextData = document.querySelectorAll('.data input[type = text]'),
+    let inputTextData = document.querySelectorAll('.data input[type = text]'),
           resultInputAll = document.querySelectorAll('.result input[type = text]');
 
     inputTextData.forEach((elem) => {
@@ -232,7 +234,9 @@ reset = function(){
     } plusButton1.style.display = 'block';
 
     calcButton.style.display = 'block';
-    cancelButton.style.display = 'none'
+    cancelButton.style.display = 'none';
+    this.expenses = {};
+    this.expensesMonth = 0;
 };
 
 addEventListeners = function(){
