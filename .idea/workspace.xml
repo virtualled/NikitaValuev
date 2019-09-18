@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="Сделал округления в 11">
+    <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson12/new year/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/new year/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11.2/main11.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11.2/main11.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/main11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,40 @@
   <component name="FavoritesManager">
     <favorites_list name="lesson_1" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson12/new year/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson12/new year/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson12/script.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hints/SetTimeout/setTime.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-987" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,16 +63,120 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>10000</find>
+      <find>missionqua</find>
+      <find>incomePeriodValue</find>
+      <find>calcSaveMoney</find>
+      <find>budget</find>
+      <find>incomeMonth</find>
+      <find>incomeItem</find>
+      <find>expensestMonthValue</find>
+      <find>expensesMonth</find>
+      <find>budgetMonth</find>
+      <find>getStatusIncome</find>
+      <find>income-title</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1QQJWPj2bob5jCY8eKpRSHNpsuz" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/l2max/index.html" />
+        <option value="$PROJECT_DIR$/l2max/main.js" />
+        <option value="$PROJECT_DIR$/lesson03/index.html" />
+        <option value="$PROJECT_DIR$/lesson03/bonus03/index.html" />
+        <option value="$PROJECT_DIR$/lesson03/bonus03/bonus03.js" />
+        <option value="$PROJECT_DIR$/lesson04/index.html" />
+        <option value="$PROJECT_DIR$/lesson03/main3.js" />
+        <option value="$PROJECT_DIR$/lesson04/bonus04/index.html" />
+        <option value="$PROJECT_DIR$/lesson04/bonus04/bonus04.js" />
+        <option value="$PROJECT_DIR$/lesson05/index.html" />
+        <option value="$PROJECT_DIR$/lesson05/bonus5/index.html" />
+        <option value="$PROJECT_DIR$/lesson05/bonus5/bonus5.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/lesson05/main5.js" />
+        <option value="$PROJECT_DIR$/lesson06/index.html" />
+        <option value="$USER_HOME$/Downloads/script.js" />
+        <option value="$PROJECT_DIR$/lola/test.js" />
+        <option value="$PROJECT_DIR$/lola/index.html" />
+        <option value="$PROJECT_DIR$/lola/script.js" />
+        <option value="$PROJECT_DIR$/lesson06/main06.js" />
+        <option value="$PROJECT_DIR$/pagesQueryJs/index.html" />
+        <option value="$PROJECT_DIR$/pagesQueryJs/style.css" />
+        <option value="$PROJECT_DIR$/pagesQueryJs/page.js" />
+        <option value="$PROJECT_DIR$/lesson07/lesson07+/index.html" />
+        <option value="$PROJECT_DIR$/lesson07/budget_up/index.html" />
+        <option value="$PROJECT_DIR$/lesson07/budget_up/main.js" />
+        <option value="$PROJECT_DIR$/lesson08/main08.js" />
+        <option value="$PROJECT_DIR$/lesson07/lesson07+/main07+.js" />
+        <option value="$PROJECT_DIR$/lesson07/main07.js" />
+        <option value="$PROJECT_DIR$/lesson09/main09.js" />
+        <option value="$PROJECT_DIR$/lesson12/new year/index.html" />
+        <option value="$PROJECT_DIR$/lesson12/new year/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Hints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Hints" type="462c0819:PsiDirectoryNode" />
+              <item name="SetTimeout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson12" type="462c0819:PsiDirectoryNode" />
+              <item name="new year" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,19 +186,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lesson12" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="C:\Users\Ник\Desktop\JS\glo" />
-      <recent name="C:\Users\Ник\Desktop\JS\glo\Hints" />
-      <recent name="C:\Users\Ник\Desktop\JS\glo\lesson07" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Hints" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lesson06" />
+      <recent name="$PROJECT_DIR$/lesson04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,14 +209,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ewrjs">
+  <component name="RunManager" selected="Node.js.bonus5.js">
+    <configuration name="bonus03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus03.js" working-dir="$PROJECT_DIR$/lesson03/bonus03">
+      <method v="2" />
+    </configuration>
     <configuration name="bonus04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus04.js" working-dir="$PROJECT_DIR$/lesson04/bonus04">
       <method v="2" />
     </configuration>
     <configuration name="bonus5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bonus5.js" working-dir="$PROJECT_DIR$/lesson05/bonus5">
-      <method v="2" />
-    </configuration>
-    <configuration name="ewrjs" type="NodeJSConfigurationType" temporary="true" path-to-js-file="main11.js" working-dir="$PROJECT_DIR$/lesson11">
       <method v="2" />
     </configuration>
     <configuration name="main3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main3.js" working-dir="$PROJECT_DIR$/lesson03">
@@ -92,13 +225,15 @@
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Node.js.ewrjs" />
-      <item itemvalue="Node.js.bonus04.js" />
-      <item itemvalue="Node.js.bonus5.js" />
-      <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.main3.js" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.bonus5.js" />
+        <item itemvalue="Node.js.bonus04.js" />
+        <item itemvalue="Node.js.bonus03.js" />
+        <item itemvalue="Node.js.main3.js" />
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -117,19 +252,10 @@
       <workItem from="1567423594214" duration="12434000" />
       <workItem from="1567578276441" duration="39000" />
       <workItem from="1567613622939" duration="5531000" />
-      <workItem from="1567627786441" duration="14730000" />
-      <workItem from="1567696918775" duration="2812000" />
-      <workItem from="1567711174295" duration="61000" />
-      <workItem from="1567857622434" duration="6391000" />
-      <workItem from="1567864955422" duration="5538000" />
-      <workItem from="1567941805529" duration="5493000" />
-      <workItem from="1568024864478" duration="11885000" />
-      <workItem from="1568447058660" duration="15354000" />
-      <workItem from="1568536743270" duration="348000" />
-      <workItem from="1568537151806" duration="5543000" />
-      <workItem from="1568552976704" duration="5241000" />
-      <workItem from="1568561559962" duration="3671000" />
-      <workItem from="1568695478355" duration="13711000" />
+      <workItem from="1567627786441" duration="15185000" />
+      <workItem from="1567959825934" duration="11941000" />
+      <workItem from="1568010584599" duration="2813000" />
+      <workItem from="1568834205909" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -236,106 +362,85 @@
       <option name="project" value="LOCAL" />
       <updated>1567688372767</updated>
     </task>
-    <task id="LOCAL-00016" summary="Создал раздел для 8 урока">
-      <created>1567711222608</created>
+    <task id="LOCAL-00016" summary="Сделал первое задание из you dont know js">
+      <created>1567692404434</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1567711222608</updated>
+      <updated>1567692404434</updated>
     </task>
-    <task id="LOCAL-00017" summary="wefw">
-      <created>1567876329370</created>
+    <task id="LOCAL-00017" summary="Сделал урок 7">
+      <created>1567692546200</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1567876329370</updated>
+      <updated>1567692546200</updated>
     </task>
-    <task id="LOCAL-00018" summary="добавил отслеживание ползунка">
-      <created>1567956061920</created>
+    <task id="LOCAL-00018" summary="Сделал 8 урок">
+      <created>1567965911840</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1567956061920</updated>
+      <updated>1567965911840</updated>
     </task>
-    <task id="LOCAL-00019" summary="Сделал 9 урок">
-      <created>1568030285713</created>
+    <task id="LOCAL-00019" summary="Исправил 7 урок">
+      <created>1567966488870</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1568030285713</updated>
+      <updated>1567966488870</updated>
     </task>
-    <task id="LOCAL-00020" summary="Сделал 9 урок">
-      <created>1568155862610</created>
+    <task id="LOCAL-00020" summary="урок 9 - первое и последнее не сделано">
+      <created>1567971910861</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1568155862610</updated>
+      <updated>1567971910861</updated>
     </task>
-    <task id="LOCAL-00021" summary="Сделал 10 урок">
-      <created>1568455465590</created>
+    <task id="LOCAL-00021" summary="поправил 7 задание">
+      <created>1568023493852</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1568455465590</updated>
+      <updated>1568023493852</updated>
     </task>
-    <task id="LOCAL-00022" summary="Исправил input, добавил верстку">
-      <created>1568482151151</created>
+    <task id="LOCAL-00022" summary="Добавил контекст к кнопке старт">
+      <created>1568024475767</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1568482151151</updated>
+      <updated>1568024475767</updated>
     </task>
-    <task id="LOCAL-00023" summary="Исправил input, добавил верстку">
-      <created>1568482384997</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1568482384997</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Исправил 9 урок">
-      <created>1568484610196</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1568484610196</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Исправил 9 урок">
-      <created>1568485021941</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1568485021941</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Поправил 10 урок">
-      <created>1568486818833</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1568486818833</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Сделал 11.1&#10;поменял const&#10;Добавил стрелочные функции только в  forEach">
-      <created>1568699066418</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1568699066418</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Сделал 11.2&#10;Переделал под Class/Constructor">
-      <created>1568705106414</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1568705106415</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Сделал округления в 11">
-      <created>1568815294467</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1568815294467</updated>
-    </task>
-    <option name="localTasksCounter" value="30" />
+    <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78717000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5927711" visible="true" weight="0.2074392" />
+      <window_info id="Structure" order="1" sideWeight="0.40722892" side_tool="true" visible="true" weight="0.2074392" />
+      <window_info id="Favorites" order="2" sideWeight="0.502693" side_tool="true" weight="0.21888413" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.34698796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.4253012" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -346,7 +451,20 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -368,6 +486,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавил задание с addExpanses" />
     <MESSAGE value="поправил доп. задание" />
     <MESSAGE value="Сделал 7 заданий из 3 урока" />
     <MESSAGE value="Сделал обязательные задния в 3 уроке" />
@@ -382,17 +501,264 @@
     <MESSAGE value="сделал обязательные задания. урок 6" />
     <MESSAGE value="сделал обязательные задания. урок 7" />
     <MESSAGE value="Сделал первое задание из you dont know js" />
-    <MESSAGE value="Создал раздел для 8 урока" />
-    <MESSAGE value="wefw" />
-    <MESSAGE value="добавил отслеживание ползунка" />
-    <MESSAGE value="Сделал 9 урок" />
-    <MESSAGE value="Сделал 10 урок" />
-    <MESSAGE value="Исправил input, добавил верстку" />
-    <MESSAGE value="Исправил 9 урок" />
-    <MESSAGE value="Поправил 10 урок" />
-    <MESSAGE value="Сделал 11.1&#10;поменял const&#10;Добавил стрелочные функции только в  forEach" />
-    <MESSAGE value="Сделал 11.2&#10;Переделал под Class/Constructor" />
-    <MESSAGE value="Сделал округления в 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал округления в 11" />
+    <MESSAGE value="Сделал урок 7" />
+    <MESSAGE value="Сделал 8 урок" />
+    <MESSAGE value="Исправил 7 урок" />
+    <MESSAGE value="урок 9 - первое и последнее не сделано" />
+    <MESSAGE value="поправил 7 задание" />
+    <MESSAGE value="Добавил контекст к кнопке старт" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил контекст к кнопке старт" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/l2max/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l2max/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/bonus03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/bonus03/bonus03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03/main3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/bonus04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/bonus04/bonus04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson04/main4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="49" column="18" lean-forward="true" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/bonus5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/script.js" />
+    <entry file="file://$PROJECT_DIR$/lola/test.js" />
+    <entry file="file://$PROJECT_DIR$/lola/index.html" />
+    <entry file="file://$PROJECT_DIR$/lola/script.js" />
+    <entry file="file://$PROJECT_DIR$/lesson06/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson06/main06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson05/main5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagesQueryJs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagesQueryJs/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/budget_up/main.js" />
+    <entry file="file://$USER_HOME$/Downloads/main08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson08/index08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagesQueryJs/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/main07+.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson08/main08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="56" column="23" lean-forward="true" selection-end-line="257" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson09/lesson08+/index.html" />
+    <entry file="file://$PROJECT_DIR$/lesson07/lesson07+/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson09/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson09/main09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="247" column="68" selection-start-line="247" selection-start-column="68" selection-end-line="247" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson09/index09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/main07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hints/SetTimeout/setTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12/new year/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12/new year/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
