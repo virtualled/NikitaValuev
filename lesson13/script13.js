@@ -95,8 +95,13 @@ window.addEventListener('DOMContentLoaded', function () {
         popUpBtn.forEach((elem) => {
             elem.addEventListener('click', () => {
                 popUp.style.display = 'block';
-                popUp.style.opacity = '0';
-                 id1 = setInterval(popUpAppear, 100);
+
+                 if(window.innerWidth > 417){
+                     popUp.style.opacity = '0';
+                     id1 = setInterval(popUpAppear, 100);
+                 }else{
+                     popUp.style.opacity = '1';
+                 }
 
             });
 
