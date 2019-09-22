@@ -308,31 +308,20 @@ window.addEventListener('DOMContentLoaded', function () {
                 console.log('SRC: ' + imgSrc);
             });
         });
-        // commandPhoto.addEventListener('mouseenter', (event) =>{
-        //       commandPhoto.forEach((item) =>{
-        //           imgSrc = event.target.src;
-        //           event.target.src = event.target.dataset.img;
-        //           console.log(imgSrc);
-        //       });
-        //
-        //   });
-        //     commandPhoto.addEventListener('mouseleave', (event) =>{
-        //         event.target.src = imgSrc;
-        //         console.log(imgSrc);
-        //     })
+
     };
     team();
 
-//     const calc = () =>{
-//         let calcItem = document.querySelectorAll('input.calc-item');
-//         console.log(calcItem);
-//         calcItem.forEach((item)=>{
-//
-//         })
-//
-//     };
-//     calc();
-//
+    const calc = () =>{
+        let calcItem = document.querySelectorAll('input.calc-item');
+        console.log(calcItem);
+        calcItem.forEach((item)=>{
+            item.value.replace(/\D+/,'');
+        })
+
+    };
+    calc();
+
 });
 
 

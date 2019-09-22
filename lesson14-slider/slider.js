@@ -54,13 +54,14 @@ window.addEventListener('DOMContentLoaded', function () {
         const btnMenu = document.querySelector('.menu'),
             menu = document.querySelector('menu'),
             closeBtn = document.querySelector('.close-btn'),
+            body = document.querySelector('body'),
             menuItems = document.querySelectorAll('ul>li');
 
 
         body.addEventListener('click', (event)=>{
             let target = event.target;
             console.log(target);
-            if (target.classList.contains('close-btn') || target.tagName === 'A'|| target.closest('.menu') || !target.closest('.active-menu')){
+            if (target.classList.contains('close-btn') || target.tagName === 'A'|| target.closest('.menu')){
                 menu.classList.toggle('active-menu');
             }
         });

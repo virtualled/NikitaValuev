@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', function () {
         body.addEventListener('click', (event)=>{
                 let target = event.target;
                 console.log(target);
-                if (target.classList.contains('close-btn') || target.tagName === 'A'|| target.closest('.menu') || !target.closest('.active-menu')){
+                if (target.classList.contains('close-btn') || target.tagName === 'A'|| target.closest('.menu')){
                     menu.classList.toggle('active-menu');
                 }
         });
