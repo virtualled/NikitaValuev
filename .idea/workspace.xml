@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hints/htmlAtrrs/attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/htmlAtrrs/attrs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hints/htmlAtrrs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hints/htmlAtrrs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson14-slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14-slider/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/main15.js" afterDir="false" />
-    </list>
+    <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569164686257</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Добавил валидацию">
+      <created>1569172208694</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569172208694</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +371,7 @@
     <MESSAGE value="Сделал 12" />
     <MESSAGE value="начал 14" />
     <MESSAGE value="Сделал задание с добавлением точек на слайдер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал задание с добавлением точек на слайдер" />
+    <MESSAGE value="Добавил валидацию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил валидацию" />
   </component>
 </project>
