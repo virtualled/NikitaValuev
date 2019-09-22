@@ -57,28 +57,17 @@ window.addEventListener('DOMContentLoaded', function () {
             menuItems = document.querySelectorAll('ul>li');
 
 
-        const handlerMenu = ()=>{
-            // if (!menu.style.transform || menu.style.transform === `translate(-100%)`) {
-            //     menu.style.transform = `translate(100%)`;
-            // } else{
-            //     menu.style.transform = `translate(-100%)`;
-            // }
-            menu.classList.toggle('active-menu');
-        };
-        menu.addEventListener('click', (event)=>{
+        body.addEventListener('click', (event)=>{
             let target = event.target;
-             console.log(target);
-                if (target.classList.contains('close-btn') || target.tagName === 'a'){
-                    menu.classList.toggle('active-menu');
-                }
-
-
-
-
+            console.log(target);
+            if (target.classList.contains('close-btn') || target.tagName === 'A'|| target.closest('.menu') || !target.closest('.active-menu')){
+                menu.classList.toggle('active-menu');
+            }
         });
-        btnMenu.addEventListener('click', handlerMenu);
+
 
     };
+
     toggleMenu();
 
 //popUp
