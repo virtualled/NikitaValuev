@@ -34,7 +34,7 @@ obj.color = 'black';
 
 car.style = obj;
 
-car.ride = function (speed){
+car.ride = function (speed) {
     console.log('Current speed is ' + speed);
 }
 
@@ -48,7 +48,7 @@ car.stop();
 
 function stop() {
     console.log('Car is on parking');
-    
+
 }
 
 
@@ -60,8 +60,8 @@ let bodyTrans = 'Automative';
 car[titleTrans] = bodyTrans;
 
 
-for (let key in car){
-    console.log('Ключи ' + key +  ' значение ' + car[key]);
+for (let key in car) {
+    console.log('Ключи ' + key + ' значение ' + car[key]);
 }
 // Ключи model значение mazda
 // Ключи year значение 2006
@@ -81,7 +81,7 @@ arr.unshift('mitino'); // ставит значение  в начало мас�
 arr.pop(); // убирает последий эллемент и возвращает его значение в pop
 arr.unshift(); // убирает последнее значение и хранит
 arr.sort(); // сортирует массив
-arr.slice(1,3) // возвращает данные, помещая в массив
+arr.slice(1, 3) // возвращает данные, помещая в массив
 arr.splice(1, 2, 'old', 'lolipop'); // вставляет значения, забирая текующие. 1 - с какого индекса начинать заменять, 2 - сколько значений убрать
 arr.join(); // возвращает строку. Через запятую по-умолчанию | |   .join(' - '); - будет разделять через тире
 arr.reverse(); // возвращает массив в обратном направлении
@@ -89,8 +89,7 @@ arr.concat(['apple', 'home'], 'bear'); //объединяет массивы в 
 delete arr[2]; // удаление значения по индексу
 
 
-
-for (let i = 0; i < arr.length; i++){   // Возвращает значения
+for (let i = 0; i < arr.length; i++) {   // Возвращает значения
     console.log(arr[i]);
 }
 //8
@@ -100,7 +99,7 @@ for (let i = 0; i < arr.length; i++){   // Возвращает значения
 // old
 // 2
 
-arr.forEach(function (item, i, array){   // Возвращает значения и индексы
+arr.forEach(function (item, i, array) {   // Возвращает значения и индексы
     console.log(item, i);
 });
 // mitino 0
@@ -110,7 +109,7 @@ arr.forEach(function (item, i, array){   // Возвращает значени�
 // 2 4
 
 
-for(let item of arr){   // Возвращает значения
+for (let item of arr) {   // Возвращает значения
     console.log(item);
 }
 // mitino
@@ -119,7 +118,7 @@ for(let item of arr){   // Возвращает значения
 // old
 // 2
 
-for(let item in arr){   // Возвращает индексы
+for (let item in arr) {   // Возвращает индексы
     console.log(item);
 }
 // 0
@@ -131,3 +130,20 @@ for(let item in arr){   // Возвращает индексы
 console.log(arr);
 console.log(arr.length);
 
+$(function () {
+    var a = $(".home-logo"), n = $(".animation__gif"), o = n.find("img");
+    if (n.length) {
+        try {
+            var t = n.data("times"), e = "mGifLogo_" + n.data("name"), i = Number(home.localStorage.getItem(e));
+            if (null === (i = isNaN(i) ? null : Number(i)) || i >= t) return;
+            home.localStorage.setItem(e, i + 1)
+        } catch (m) {
+        }
+        var r, l;
+        r = o[0], l = function () {
+            a.find(".home-logo__link").hide(), a.append(n), o.attr("src", o.attr("src") + "?rnd=" + String(Math.random()).substr(2, 12)), n.removeClass("animation__gif_hidden_yes")
+        }, r.complete ? l() : r.onload = function () {
+            r.onload = null, l()
+        }
+    }
+});
