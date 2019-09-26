@@ -2,9 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson16/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/fonts/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/3dglo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/calc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-2a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-3a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-4a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/command-6a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/cov-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/command/cov-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/companies/companies-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/connect-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/letter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/tele.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/connect/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/footer/academy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/footer/face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/footer/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/footer/insta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/icons/left-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/icons/right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/iЃuЃ_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/main-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/portfilio/portfolio-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/scroll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/service/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/service/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/service/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/images/Лого_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/main16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/plugins/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson14/script14.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/script14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,29 +108,108 @@
     <favorites_list name="lesson_1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson14/script14.js">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson16/main16.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="540">
+              <caret line="382" selection-start-line="382" selection-end-line="382" />
               <folding>
-                <element signature="e#120#1636#0" />
+                <element signature="e#123#1647#0" />
+                <element signature="e#365#861#0" />
+                <element signature="e#895#1599#0" />
+                <element signature="e#979#1149#0" />
+                <element signature="e#1155#1312#0" />
+                <element signature="e#1364#1588#0" />
+                <element signature="e#1415#1495#0" />
+                <element signature="e#1501#1574#0" />
+                <element signature="e#1714#2476#0" />
+                <element signature="e#2049#2466#0" />
+                <element signature="e#2163#2277#0" />
+                <element signature="e#2312#2381#0" />
+                <element signature="e#2387#2456#0" />
+                <element signature="e#2537#3962#0" />
+                <element signature="e#2939#3138#0" />
+                <element signature="e#2965#3047#0" />
+                <element signature="e#3053#3128#0" />
+                <element signature="e#3175#3544#0" />
+                <element signature="e#3226#3531#0" />
+                <element signature="e#3321#3444#0" />
+                <element signature="e#3450#3516#0" />
+                <element signature="e#3600#3952#0" />
+                <element signature="e#3700#3761#0" />
+                <element signature="e#3767#3941#0" />
+                <element signature="e#3857#3926#0" />
+                <element signature="e#4020#5607#0" />
+                <element signature="e#4272#4662#0" />
+                <element signature="e#4330#4651#0" />
+                <element signature="e#4365#4498#0" />
+                <element signature="e#4504#4637#0" />
+                <element signature="e#4719#5045#0" />
+                <element signature="e#4845#5033#0" />
+                <element signature="e#4888#5017#0" />
+                <element signature="e#4931#4999#0" />
+                <element signature="e#5056#5107#0" />
+                <element signature="e#5661#8930#0" />
+                <element signature="e#5945#6456#0" />
+                <element signature="e#6170#6445#0" />
+                <element signature="e#6305#6380#0" />
+                <element signature="e#6587#6650#0" />
+                <element signature="e#6705#6765#0" />
+                <element signature="e#6804#7191#0" />
+                <element signature="e#7005#7054#0" />
+                <element signature="e#7238#7306#0" />
+                <element signature="e#7341#7390#0" />
+                <element signature="e#7445#8488#0" />
+                <element signature="e#7580#7619#0" />
+                <element signature="e#7796#7843#0" />
+                <element signature="e#7884#7931#0" />
+                <element signature="e#7965#8157#0" />
+                <element signature="e#8012#8142#0" />
+                <element signature="e#8055#8124#0" />
+                <element signature="e#8205#8254#0" />
+                <element signature="e#8289#8353#0" />
+                <element signature="e#8548#8692#0" />
+                <element signature="e#8638#8682#0" />
+                <element signature="e#8750#8895#0" />
+                <element signature="e#8840#8885#0" />
+                <element signature="e#8982#9568#0" />
+                <element signature="e#9153#9559#0" />
+                <element signature="e#9213#9382#0" />
+                <element signature="e#9442#9547#0" />
+                <element signature="e#9617#11719#0" />
+                <element signature="e#9782#9836#0" />
+                <element signature="e#10265#11279#0" />
+                <element signature="e#10520#10593#0" />
+                <element signature="e#10647#10695#0" />
+                <element signature="e#10742#10790#0" />
+                <element signature="e#10834#10930#0" />
+                <element signature="e#10997#11215#0" />
+                <element signature="e#11036#11136#0" />
+                <element signature="e#11142#11201#0" />
+                <element signature="e#11337#11712#0" />
+                <element signature="e#11392#11459#0" />
+                <element signature="e#11659#11702#0" />
+                <element signature="e#11743#11776#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson14/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson16/plugins/validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1129">
-              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson16/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,16 +284,23 @@
         <option value="$PROJECT_DIR$/lesson14/index.html" />
         <option value="$PROJECT_DIR$/lesson14-slider/index.html" />
         <option value="$PROJECT_DIR$/lesson15/css/style.min.css" />
-        <option value="$PROJECT_DIR$/lesson15/main15.js" />
-        <option value="$PROJECT_DIR$/lesson14-slider/slider.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/lesson14/script14.js" />
+        <option value="$PROJECT_DIR$/lesson14-slider/slider.js" />
+        <option value="$PROJECT_DIR$/lesson15/main15.js" />
+        <option value="$PROJECT_DIR$/lesson15-practice/main15p.js" />
+        <option value="$PROJECT_DIR$/lesson16/main16.js" />
+        <option value="$USER_HOME$/Downloads/Task1.js" />
+        <option value="$PROJECT_DIR$/lesson16/index.html" />
+        <option value="$PROJECT_DIR$/lesson16/plugins/validation.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="785" />
+    <option name="y" value="23" />
+    <option name="width" value="655" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,7 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,12 +318,13 @@
             <path>
               <item name="lesson_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson14" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,13 +343,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson06" />
       <recent name="$PROJECT_DIR$/lesson04" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +414,8 @@
       <workItem from="1568884351774" duration="283000" />
       <workItem from="1569007577755" duration="10180000" />
       <workItem from="1569184139991" duration="3909000" />
-      <workItem from="1569188687840" duration="2373000" />
+      <workItem from="1569188687840" duration="2874000" />
+      <workItem from="1569435887307" duration="4746000" />
     </task>
     <task id="LOCAL-00001" summary="добавил задание с addExpanses">
       <created>1566804640976</created>
@@ -432,18 +606,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569188936797</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Исправил менюшку">
+      <created>1569274373217</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569274373217</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96397000" />
+    <option name="totallyTimeSpent" value="101644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="820" y="23" width="620" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5879518" visible="true" weight="0.16738197" />
-      <window_info id="Structure" order="1" sideWeight="0.4120482" side_tool="true" visible="true" weight="0.16738197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5870166" visible="true" weight="0.20588236" />
+      <window_info id="Structure" order="1" sideWeight="0.41298342" side_tool="true" weight="0.3744076" />
       <window_info id="Favorites" order="2" sideWeight="0.502693" side_tool="true" weight="0.21888413" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -455,7 +636,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.4253012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -507,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="добавил задание с addExpanses" />
     <MESSAGE value="поправил доп. задание" />
     <MESSAGE value="Сделал 7 заданий из 3 урока" />
     <MESSAGE value="Сделал обязательные задния в 3 уроке" />
@@ -532,51 +712,10 @@
     <MESSAGE value="начал 14" />
     <MESSAGE value="напсиал слайдер" />
     <MESSAGE value="Сделал 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал 15" />
+    <MESSAGE value="Исправил менюшку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил менюшку" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson04/bonus04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/bonus04/bonus04.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04/main4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="49" column="18" lean-forward="true" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/bonus5/bonus5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/script.js" />
     <entry file="file://$PROJECT_DIR$/lola/test.js" />
     <entry file="file://$PROJECT_DIR$/lola/index.html" />
@@ -734,30 +873,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson15/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson14-slider/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="63" column="106" selection-start-line="63" selection-start-column="106" selection-end-line="63" selection-end-column="106" />
-          <folding>
-            <element signature="e#120#1636#0" />
-            <element signature="e#358#858#0" />
-            <element signature="e#892#1589#0" />
-            <element signature="e#974#1144#0" />
-            <element signature="e#1149#1306#0" />
-            <element signature="e#1358#1578#0" />
-            <element signature="e#1407#1487#0" />
-            <element signature="e#1491#1564#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/main15.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson11/main11.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -926,6 +1041,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14/script14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+          <folding>
+            <element signature="e#120#1636#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15-practice/main15p.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/main15.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14-slider/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="e#120#1636#0" />
+            <element signature="e#358#858#0" />
+            <element signature="e#892#1589#0" />
+            <element signature="e#974#1144#0" />
+            <element signature="e#1149#1306#0" />
+            <element signature="e#1358#1578#0" />
+            <element signature="e#1407#1487#0" />
+            <element signature="e#1491#1564#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson14/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1129">
@@ -938,13 +1094,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson14/script14.js">
+    <entry file="file://$PROJECT_DIR$/lesson16/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16/main16.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="540">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
           <folding>
-            <element signature="e#120#1636#0" />
+            <element signature="e#123#1647#0" />
+            <element signature="e#365#861#0" />
+            <element signature="e#895#1599#0" />
+            <element signature="e#979#1149#0" />
+            <element signature="e#1155#1312#0" />
+            <element signature="e#1364#1588#0" />
+            <element signature="e#1415#1495#0" />
+            <element signature="e#1501#1574#0" />
+            <element signature="e#1714#2476#0" />
+            <element signature="e#2049#2466#0" />
+            <element signature="e#2163#2277#0" />
+            <element signature="e#2312#2381#0" />
+            <element signature="e#2387#2456#0" />
+            <element signature="e#2537#3962#0" />
+            <element signature="e#2939#3138#0" />
+            <element signature="e#2965#3047#0" />
+            <element signature="e#3053#3128#0" />
+            <element signature="e#3175#3544#0" />
+            <element signature="e#3226#3531#0" />
+            <element signature="e#3321#3444#0" />
+            <element signature="e#3450#3516#0" />
+            <element signature="e#3600#3952#0" />
+            <element signature="e#3700#3761#0" />
+            <element signature="e#3767#3941#0" />
+            <element signature="e#3857#3926#0" />
+            <element signature="e#4020#5607#0" />
+            <element signature="e#4272#4662#0" />
+            <element signature="e#4330#4651#0" />
+            <element signature="e#4365#4498#0" />
+            <element signature="e#4504#4637#0" />
+            <element signature="e#4719#5045#0" />
+            <element signature="e#4845#5033#0" />
+            <element signature="e#4888#5017#0" />
+            <element signature="e#4931#4999#0" />
+            <element signature="e#5056#5107#0" />
+            <element signature="e#5661#8930#0" />
+            <element signature="e#5945#6456#0" />
+            <element signature="e#6170#6445#0" />
+            <element signature="e#6305#6380#0" />
+            <element signature="e#6587#6650#0" />
+            <element signature="e#6705#6765#0" />
+            <element signature="e#6804#7191#0" />
+            <element signature="e#7005#7054#0" />
+            <element signature="e#7238#7306#0" />
+            <element signature="e#7341#7390#0" />
+            <element signature="e#7445#8488#0" />
+            <element signature="e#7580#7619#0" />
+            <element signature="e#7796#7843#0" />
+            <element signature="e#7884#7931#0" />
+            <element signature="e#7965#8157#0" />
+            <element signature="e#8012#8142#0" />
+            <element signature="e#8055#8124#0" />
+            <element signature="e#8205#8254#0" />
+            <element signature="e#8289#8353#0" />
+            <element signature="e#8548#8692#0" />
+            <element signature="e#8638#8682#0" />
+            <element signature="e#8750#8895#0" />
+            <element signature="e#8840#8885#0" />
+            <element signature="e#8982#9568#0" />
+            <element signature="e#9153#9559#0" />
+            <element signature="e#9213#9382#0" />
+            <element signature="e#9442#9547#0" />
+            <element signature="e#9617#11719#0" />
+            <element signature="e#9782#9836#0" />
+            <element signature="e#10265#11279#0" />
+            <element signature="e#10520#10593#0" />
+            <element signature="e#10647#10695#0" />
+            <element signature="e#10742#10790#0" />
+            <element signature="e#10834#10930#0" />
+            <element signature="e#10997#11215#0" />
+            <element signature="e#11036#11136#0" />
+            <element signature="e#11142#11201#0" />
+            <element signature="e#11337#11712#0" />
+            <element signature="e#11392#11459#0" />
+            <element signature="e#11659#11702#0" />
+            <element signature="e#11743#11776#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Task1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16/plugins/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>
