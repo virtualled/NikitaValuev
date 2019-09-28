@@ -2,9 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e43f242-352d-4ae2-b839-25053e7a5561" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Hints/AjaxJason/ajax.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Hints/AjaxJason/indexSet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/lesson17/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/fonts/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/3dglo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/calc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-2a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-3a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-4a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/command-6a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/cov-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/command/cov-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/companies/companies-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/connect-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/letter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/tele.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/connect/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/footer/academy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/footer/face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/footer/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/footer/insta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/icons/left-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/icons/right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/iЃuЃ_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/main-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/portfilio/portfolio-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/scroll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/service/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/service/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/service/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/images/Лого_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/main15p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson17/robots.txt" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +111,7 @@
   <component name="FavoritesManager">
     <favorites_list name="lesson_1" />
   </component>
+<<<<<<< Updated upstream
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -137,6 +229,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -166,6 +260,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -255,6 +350,9 @@
       </pane>
     </panes>
   </component>
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> Stashed changes
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -309,6 +407,13 @@
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.bonus03.js" />
+      <item itemvalue="Node.js.bonus04.js" />
+      <item itemvalue="Node.js.bonus5.js" />
+      <item itemvalue="Node.js.main3.js" />
+      <item itemvalue="Node.js.main.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.bonus5.js" />
@@ -553,6 +658,7 @@
     <option name="localTasksCounter" value="30" />
     <servers />
   </component>
+<<<<<<< Updated upstream
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="107645000" />
   </component>
@@ -581,6 +687,8 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -590,20 +698,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -652,6 +747,7 @@
     <MESSAGE value="20 minut" />
     <option name="LAST_COMMIT_MESSAGE" value="20 minut" />
   </component>
+<<<<<<< Updated upstream
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lola/test.js" />
     <entry file="file://$PROJECT_DIR$/lola/index.html" />
@@ -1146,4 +1242,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>
